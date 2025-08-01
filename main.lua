@@ -3,16 +3,16 @@ local T = ShaguTweaks.T
 
 -- My preferred default settings
 local defaultSettings = {
-    [T["Auto Dismount"]] = nil,
-    [T["Auto Stance"]] = nil,
-    [T["Cooldown Numbers"]] = nil,
-    [T["Real Health Numbers"]] = nil,
-    [T["Item Rarity Borders"]] = nil,
-    [T["MiniMap Tweaks"]] = nil,
-    [T["Nameplate Class Colors"]] = nil,
-    [T["Sell Junk"]] = nil,
-    [T["Tooltip Details"]] = nil,
-    [T["Vendor Values"]] = nil,
+    [T["Auto Dismount"]] = false,
+    [T["Auto Stance"]] = false,
+    [T["Cooldown Numbers"]] = false,
+    [T["Real Health Numbers"]] = false,
+    [T["Item Rarity Borders"]] = false,
+    [T["MiniMap Tweaks"]] = false,
+    [T["Nameplate Class Colors"]] = false,
+    [T["Sell Junk"]] = false,
+    [T["Tooltip Details"]] = false,
+    [T["Vendor Values"]] = false,
     [T["Unit Frame Big Health"]] = true,
 }
 for modTitle, enabled in pairs(defaultSettings) do
