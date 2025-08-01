@@ -1,6 +1,4 @@
-# ShaguTweaks-template
-
-This project is an example addon for [ShaguTweaks](https://github.com/shagu/ShaguTweaks), showcasing how to create an external module package. To make it your own, simply rename all instances of `template` to your desired name and add your custom modules. Don't forget to update the author information in the `.toc` file and the maintainer section of the template module with your own details.
+# ShaguTweaks-DBFBlackbull
 
 ## Installation (Vanilla, 1.12)
 
@@ -12,6 +10,32 @@ This project is an example addon for [ShaguTweaks](https://github.com/shagu/Shag
 
 1. Download **[Latest Version](https://github.com/shagu/ShaguTweaks-template/archive/master.zip)**
 2. Unpack the Zip file
-3. Rename the folder "ShaguTweaks-template-master" to "ShaguTweaks-template"
-4. Copy "ShaguTweaks-template" into Wow-Directory\Interface\AddOns
+3. Rename the folder "ShaguTweaks-DBFBlackbull" to "ShaguTweaks-DBFBlackbull"
+4. Copy "ShaguTweaks-DBFBlackbull" into Wow-Directory\Interface\AddOns
 5. Restart Wow
+
+### Additional mods for ShaguTweaks by DBFBlackbull
+
+- **Lockpicking skills**  
+  *Shows the lockpicking skill needed on lockboxes. Shows the lockpicking skill available on skeleton keys.*
+
+
+- **Classic numbers**  
+  *Shows both percentage and current health and mana numbers on unit frames.*
+
+### Additional mods for ShagyTweaks by [GryllsAddons](https://github.com/GryllsAddons/ShaguTweaks-mods)
+
+- **Free slots on bag**  
+  *Shows how many free slots are left in all bags in total*
+
+
+- **Actionbar quick action**  
+  *Activates abilities on key down instead of key up*
+
+
+- **Actionbar reagent count**
+  *Shows how many reagents you have for a given spell*
+
+
+- **Unit frame energy ticks**  
+  *Shows energy and mana ticks and the 5 second rule*
