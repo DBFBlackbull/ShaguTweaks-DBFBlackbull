@@ -23,6 +23,10 @@
 - **Classic numbers**  
   *Shows both percentage and current health and mana numbers on unit frames.*
 
+
+- **New defaults**  
+  *Changed what official mods are default enabled and disabled in the ShaguTweaks addon.*
+
 ### Additional mods for ShagyTweaks by [GryllsAddons](https://github.com/GryllsAddons/ShaguTweaks-mods)
 
 - **Free slots on bag**  

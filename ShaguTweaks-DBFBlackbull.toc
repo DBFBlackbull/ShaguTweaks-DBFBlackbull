@@ -18,6 +18,7 @@ locales\translations_zhTW.lua
 
 # core
 main.lua
+helpers.lua
 
 # general
 mods\classic-numbers.lua
