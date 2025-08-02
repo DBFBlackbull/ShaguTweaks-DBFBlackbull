@@ -14,6 +14,8 @@ local defaultSettings = {
     [T["Tooltip Details"]] = false,
     [T["Vendor Values"]] = false,
     [T["Unit Frame Big Health"]] = true,
+    [T["Reagent Counter"]] = true,
+    [T["Show Energy Ticks"]] = true,
 }
 for modTitle, enabled in pairs(defaultSettings) do
     ShaguTweaks.mods[modTitle].enabled = enabled

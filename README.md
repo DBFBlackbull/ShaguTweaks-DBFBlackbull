@@ -27,6 +27,15 @@
 - **New defaults**  
   *Changed what official mods are default enabled and disabled in the ShaguTweaks addon.*
 
+### Additional mods for ShagyTweaks by [shagu](https://github.com/shagu/ShaguTweaks-extras)
+
+- **Actionbar reagent count**
+  *Shows how many reagents you have for a given spell*
+
+
+- **Unit frame energy ticks**  
+  *Shows energy and mana ticks and the 5 second rule*
+
 ### Additional mods for ShagyTweaks by [GryllsAddons](https://github.com/GryllsAddons/ShaguTweaks-mods)
 
 - **Free slots on bag**  
@@ -35,11 +44,3 @@
 
 - **Actionbar quick action**  
   *Activates abilities on key down instead of key up*
-
-
-- **Actionbar reagent count**
-  *Shows how many reagents you have for a given spell*
-
-
-- **Unit frame energy ticks**  
-  *Shows energy and mana ticks and the 5 second rule*

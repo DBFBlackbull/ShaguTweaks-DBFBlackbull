@@ -23,7 +23,7 @@ helpers.lua
 # general
 mods\classic-numbers.lua
 mods\actionbar-quick-actions.lua
-mods\actionbar-reagent-count.lua
+mods\actionbar-reagents.lua
 mods\free-slots.lua
-mods\unitframes-energy-tick.lua
+mods\unitframe-energytick.lua
 mods\lockpicking-skills.lua
