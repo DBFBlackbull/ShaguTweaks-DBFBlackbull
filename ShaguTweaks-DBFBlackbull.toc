@@ -27,3 +27,6 @@ mods\actionbar-reagents.lua
 mods\free-slots.lua
 mods\unitframe-energytick.lua
 mods\lockpicking-skills.lua
+
+# My Prefered default settings
+default-settings.lua
