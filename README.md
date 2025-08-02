@@ -29,7 +29,7 @@
 
 ### Additional mods for ShagyTweaks by [shagu](https://github.com/shagu/ShaguTweaks-extras)
 
-- **Actionbar reagent count**
+- **Actionbar reagent count**  
   *Shows how many reagents you have for a given spell*
 
 
