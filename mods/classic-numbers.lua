@@ -5,6 +5,7 @@ local module = ShaguTweaks:register({
   title = T["Classic Health Numbers"],
   description = T["Shows both numbers and percentage for health and mana"],
   expansions = { ["vanilla"] = true, ["tbc"] = true },
+  maintainer = "@DBFBlackbull (GitHub)",
   category = T["Unit Frames"],
   enabled = true,
 })

@@ -9,6 +9,7 @@ local module = ShaguTweaks:register({
     title = T["Lockbox and Key skills"],
     description = T["Display the Lockpicking skill required to unlock a lockbox on the tooltip. Blacksmithing keys show what level they can unlock on the tooltip."],
     expansions = { ["vanilla"] = true, ["tbc"] = true },
+    maintainer = "@DBFBlackbull (GitHub)",
     category = T["Tooltip & Items"],
     enabled = true,
 })
