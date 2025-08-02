@@ -6,7 +6,7 @@ local module = ShaguTweaks:register({
     description = T["Adds a free slots count to the backpack button. The top right count shows free class bag slots, the bottom left count shows free reagent bag slots and the bottom right count shows the remaining free bag slots."],
     expansions = { ["vanilla"] = true, ["tbc"] = nil },
     category = T["Tooltip & Items"],
-    enabled = true,
+    enabled = nil,
 })
 
 module.enable = function(self)
@@ -122,9 +122,9 @@ module.enable = function(self)
         for i = 0, 4 do
             for slot = 1, GetContainerNumSlots(i) do
                 local link = GetContainerItemLink(i, slot)
-				if not (link) then
-					free = free + 1
-				end
+                if not (link) then
+                    free = free + 1
+                end
             end
         end
         button.count:SetText(free-freeClass-freeReagent)

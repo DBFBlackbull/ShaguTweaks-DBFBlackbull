@@ -7,7 +7,7 @@ local module = ShaguTweaks:register({
     description = T["Action buttons will be activated on key down."],
     expansions = { ["vanilla"] = true, ["tbc"] = nil },
     category = T["Action Bar"],
-    enabled = true,
+    enabled = nil,
 })
 
 module.enable = function(self)
@@ -17,7 +17,7 @@ module.enable = function(self)
     end
 
     local function checked(button)
-        if not button then return end  
+        if not button then return end
         if ( IsCurrentAction(ActionButton_GetPagedID(button)) ) then
             setChecked(button, 1)
         else
@@ -29,11 +29,11 @@ module.enable = function(self)
         ActionButtonUp(id)
         if ( BonusActionBarFrame:IsShown() ) then
             local button = _G["BonusActionButton"..id]
-            if not button then return end   
+            if not button then return end
             setChecked(button, 1)
         end
         local button = _G["ActionButton"..id]
-        if not button then return end 
+        if not button then return end
         setChecked(button, 1)
     end, true)
 
@@ -42,7 +42,7 @@ module.enable = function(self)
             local button = _G["BonusActionButton"..id]
             checked(button)
         end
-        local button = _G["ActionButton"..id]    
+        local button = _G["ActionButton"..id]
         checked(button)
     end, true)
 
