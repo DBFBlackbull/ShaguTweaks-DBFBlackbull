@@ -5,6 +5,7 @@ local module = ShaguTweaks:register({
     title = T["Free Slots Count"],
     description = T["Adds a free slots count to the backpack button. The top right count shows free class bag slots, the bottom left count shows free reagent bag slots and the bottom right count shows the remaining free bag slots."],
     expansions = { ["vanilla"] = true, ["tbc"] = nil },
+    maintainer = "@GryllsAddons (GitHub)",
     category = T["Tooltip & Items"],
     enabled = nil,
 })

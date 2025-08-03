@@ -6,6 +6,7 @@ local module = ShaguTweaks:register({
     title = T["Quick Actions"],
     description = T["Action buttons will be activated on key down."],
     expansions = { ["vanilla"] = true, ["tbc"] = nil },
+    maintainer = "@GryllsAddons (GitHub)",
     category = T["Action Bar"],
     enabled = nil,
 })

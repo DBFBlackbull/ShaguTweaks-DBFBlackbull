@@ -2,7 +2,7 @@ local T = ShaguTweaks.T
 
 -- My preferred default settings
 local defaultSettings = {
-	-- ShaguTweaks main addon
+	-- ShaguTweaks from main addon
 	[T["Auto Dismount"]] = false,
 	[T["Auto Stance"]] = false,
 	[T["Cooldown Numbers"]] = false,
@@ -15,11 +15,13 @@ local defaultSettings = {
 	[T["Vendor Values"]] = false,
 	[T["Unit Frame Big Health"]] = true,
 
-	-- ShaguTweaks DBFBlackbull
-	[T["Free Slots Count"]] = true,
-	[T["Quick Actions"]] = true,
+	-- ShaguTweaks from ShaguTweaks-extra
 	[T["Reagent Counter"]] = true,
 	[T["Show Energy Ticks"]] = true,
+
+	-- ShaguTweaks from GryllsAddons
+	[T["Quick Actions"]] = true,
+	[T["Free Slots Count"]] = true,
 }
 for modTitle, enabled in pairs(defaultSettings) do
 	ShaguTweaks.mods[modTitle].enabled = enabled
